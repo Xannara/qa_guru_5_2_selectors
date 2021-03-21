@@ -30,6 +30,7 @@ public class FillFormTests {
         String city = "Delhi";
 
         open("https://demoqa.com/automation-practice-form");
+
         $("#firstName").setValue(firstName);
         $("#lastName").setValue(lastName);
         $("#userEmail").setValue(email);
